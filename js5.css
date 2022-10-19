@@ -12,3 +12,15 @@
     color: white;
     font-size: 30px;
 }
+
+#num1Input {
+    color:cyan;
+}
+
+#num2Input {
+    color:cyan;
+}
+
+#tipoOp {
+    color: cyan;
+}
