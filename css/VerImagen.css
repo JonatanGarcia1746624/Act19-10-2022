@@ -5,3 +5,11 @@
 #encabezado {
     text-align: center;
 }
+
+#tipo {
+    color: blue;
+}
+
+#imgagen {
+    box-shadow: -5px solid black;
+}
