@@ -1,17 +1,14 @@
 //Función para número perfecto
-function numPerfecto() {
-    let numero = 0;
-    let sum = 0;
+function numPerfecto(num) {
     let apagador = 0;
-    for (let index =0; index < 10; index++) {
-    numero++;
-    if (numero % index == 0) {
-        sum += index; 
+    for (let index = 1; index <= num/2 ; index++) {
+        if (num % index == 0) {
+            apagador += index;
+        }
     }
 
-    if (numero == sum) {
-        console.log("El ",numero," es un número perfecto");
-    } else
-    console.log("El ",numero," no es un número perfecto");
-    }
+    if (apagador == num && apagador !== 0 ) {
+        console.log("El ",num," es un número perfecto");
+    } else 
+    console.log("EL ",num," no es un número perfecto")
 }
