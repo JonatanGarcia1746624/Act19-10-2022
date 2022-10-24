@@ -3,6 +3,7 @@ function verTabla() {
     let numT = 0;
     for (let index =1; index < 11; index++) {
         numT++;
-        console.log(numT," X ",num," = ",numT * num);
+        let resul = numT + ' X ' + num + ' = ' + numT * num;
+        document.getElementById("resultado1").innerText = (resul);
     }
 }
