@@ -1,18 +1,17 @@
-/*function numPerfecto(numero) {
+//Función para número perfecto
+function numPerfecto() {
+    let numero = 0;
     let sum = 0;
-    let contador = 0;
-    for (let index = 0; contador > 0; index ++) {
-        if (numero % index == 0) {
-            sum += 1;
-        };
-
-        if numero == sum:
-        
+    let apagador = 0;
+    for (let index =0; index < 10; index++) {
+    numero++;
+    if (numero % index == 0) {
+        sum += index; 
     }
-}*/
 
-let n = 0;
-for (let i = 0; i == 6; i++ ) {
-n += i;
-console.log(n);
+    if (numero == sum) {
+        console.log("El ",numero," es un número perfecto");
+    } else
+    console.log("El ",numero," no es un número perfecto");
+    }
 }
