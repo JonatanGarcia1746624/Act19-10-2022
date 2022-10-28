@@ -1,30 +1,29 @@
 //Funciones
 
-function divisores(numero) {
-    let total =0;
-    for (let i = 1; i <= numero; i++) {
-        if(numero % 1 == 0) {
+function divisores(numero){
+    let total = 0;
+    for (let i = 0; i<=numero; i++){
+        if(numero % i == 0){
             total++;
-        } 
+        }
     }
     return total;
 }
-
 //Llamar a la función
 
 console.log("Divisores:",divisores(33));
 
 //Función anonima
 
-const divisoresV2 = function(numero) {
-    let total =0;
-    for (let i = 1; i <= numero; i++) {
-        if(numero % 1 == 0) {
+const divisoresV2 = function(numero){
+    let total = 0;
+    for (let i = 0; i<=numero; i++){
+        if(numero % i == 0){
             total++;
-        } 
+        }
     }
     return total;
-}
+};
 
 //Llamar a la función 
 console.log("DivisoresV2:",divisoresV2(33));
@@ -34,14 +33,14 @@ sus valores (numero) > numero y si tienen solo una línea de codigo no necesitan
 return  */
 
 const divisoresV3 = numero => {
-    let total =0;
-    for (let i = 1; i <= numero; i++) {
-        if(numero % 1 == 0) {
+    let total = 0;
+    for (let i = 0; i<=numero; i++){
+        if(numero % i == 0){
             total++;
-        } 
+        }
     }
     return total;
-}
+};
 
 //Lammar a la función
 
