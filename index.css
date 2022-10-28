@@ -1,0 +1,10 @@
+#cuerpo {
+    background-image: url(Recursos/temaMainPage.png);
+    background-size: 2000px;
+}
+
+a:hover{
+    color: black;
+    font-size: 20px;
+    text-decoration: dashed;
+}
