@@ -50,3 +50,10 @@ console.log("DivisoresV3:",divisoresV3(33));
 /* Llamar a la función para calcular lo que esta en el html (ver valor dentro de la función)
 llamar al documento y transformar en caso de ser un número con la función 'parseInt' y poder
 utilizar ese valor para nuestra función que utiliza números  */
+
+function calcular(){
+    let numero = parseInt(document.getElementById("num").value);
+
+    let resultado = document.getElementById("resul");
+    resultado.value = divisores(numero);
+}
